@@ -7,34 +7,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="https://cursosbyte.com.br/wp-content/uploads/2022/01/cuidador_idosos_curso.jpg?utm_source=direto&utm_content=1778346000006" type="image/png"> <!-- icone do site = imagem -->
-
-        <style>
-            
-        </style>
-    </head>
-    <body>
-        <header>
-            <div id="title">
-                <h1>Jack Cuidadora</h1>
-            </div>
-
-            <ul>
-                <a href="./Index.html"><li>Início</li></a>
-                <a href="./Sobre.html"><li>Sobre</li></a>
-                <a href="./Contato.html"><li>Contato</li></a>
-                <a href="./LoginBTN.html" id="Login"><li>Entrar</li></a>
-            </ul>
-        </header>
-        <main>
-            <aside>
-              <span><h2>Bem Vindo</h2></span>
-              <p>
-                Entra em contato
-              </p>
-              <h1>
-                Tel: (27)99654-1988
-              </h1>
-            </aside>
-        </main>
-    </body>
+    <style>
+      footer{
+				background-color: blue;
+				positon: absolute;
+				text-align: center;
+				color: black;
+			}
+      
+      label{
+        display: inline;
+      }
+			
+      header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      #title{
+        flex-direction: column;
+        line-height: 10px;
+      }
+      
+      li{
+        display:inline-block;
+        margin: 20px;
+      }
+      
+      a{
+        color: black;
+      }
+      
+      a:hover{
+        border: 2px solid #03fc45;
+        padding: 10px;
+        border-radius: 15px;
+        transition: 0.3s all;
+      }
+			
+      main{
+				display: flex;
+			  flex-direction: row;
+			  margin-top: 50px;
+			}
+      
+			aside{
+		    margin-top: 30px;
+		  }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="title">
+        <h1>Jack Cuidadora</h1>
+      </div>
+      <nav> <!-- linka esta pagina do site a outos sites ou outras áreas da página -->
+        <ul> <!-- lista não ordenada -->
+          <li> <!-- Lista -->
+            <a href="Missao.html"> Missão  </a> <!-- elemento âncora tag expecifica para fazer hiperligações nas páginas web ou seja idela para o href , o atributo href cria-se um hiperligação nas páginas web, arquivos, endereços de emails, ligações na mesma página ou endereços na URL -->
+          </li> <!-- Fechando uma Lista -->
+          <li> <!-- Lista -->
+            <a href="Visao.html"> Visão </a> <!-- elemento âncora tag expecifica para fazer hiperligações nas páginas web ou seja idela para o href , o atributo href cria-se um hiperligação nas páginas web, arquivos, endereços de emails, ligações na mesma página ou endereços na URL -->
+          </li> <!-- Fechando uma Lista -->
+          <li> <!-- Lista -->
+            <a href="Valores.html"> Valores </a>  <!-- elemento âncora tag expecifica para fazer hiperligações nas páginas web ou seja idela para o href , o atributo href cria-se um hiperligação nas páginas web, arquivos, endereços de emails, ligações na mesma página ou endereços na URL -->
+          </li> <!-- Fechando uma Lista -->
+          <li> <!-- Lista -->
+            <a href="Desenvolvedores.html"> Desenvolvedores </a> <!-- elemento âncora tag expecifica para fazer hiperligações nas páginas web ou seja idela para o href , o atributo href cria-se um hiperligação nas páginas web, arquivos, endereços de emails, ligações na mesma página ou endereços na URL -->
+          </li> <!-- Fechando uma Lista -->
+        </ul> <!-- Fechando uma lista não ordenada -->
+      </nav> <!-- linka esta pagina do site a outos sites ou outras áreas da página -->
+    </header>
+    <main>
+      <aside>
+        <span><h2>Bem Vindo</h2></span>
+        <p>
+          Entra em contato
+        </p>
+        <h1>
+          Tel: (27)99654-1988
+        </h1>
+      </aside>
+    </main>
+    <footer>
+      <p> Cuidando com Amor e Carinho </p>
+    </footer>
+  </body>
 </html>
